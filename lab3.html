@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<style>
+    table,
+    tr,
+    td {
+        border: 1px solid black;
+    }
+</style>
+<head>
+    <title>HTML Form Exercise</title>
+</head>
+<body>
+    <h1>เข้าสู่ระบบ</h1>
+
+    <form action="linkpage.html">
+        <table>
+            <tr>
+                <td>Username : </td>
+                <td>
+                    <input type="text" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Password : </td>
+                <td>
+                    <input type="text" required>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">กรุณาพิมตามเลขที่กำหนด :<br>1559<br>
+                    <input type="text" pattern="1559" required>
+                </td>
+            </tr>
+        </table>
+        <button type="submit">
+            <img src="loginbutton.jpg" width="100px" height="50px">
+        </button>
+    </form>
+</body>
+
+</html>
